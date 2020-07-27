@@ -1,0 +1,17 @@
+2020-07-27 17:49:27.542  INFO MacBook-Pro --- [           main] l.Log4jDemoApplication                   : Starting Log4jDemoApplication on MacBook-Pro with PID 7608 (/Users/smilykq/Desktop/log4j/target/classes started by smilykq in /Users/smilykq/Desktop/log4j)
+2020-07-27 17:49:27.551  INFO MacBook-Pro --- [           main] l.Log4jDemoApplication                   : No active profile set, falling back to default profiles: default
+2020-07-27 17:49:28.679  INFO MacBook-Pro --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-27 17:49:28.708  INFO MacBook-Pro --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-27 17:49:28.709  INFO MacBook-Pro --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-27 17:49:28.709  INFO MacBook-Pro --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-27 17:49:28.902  INFO MacBook-Pro --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-27 17:49:28.902  INFO MacBook-Pro --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1301 ms
+2020-07-27 17:49:29.133  INFO MacBook-Pro --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-27 17:49:29.271  INFO MacBook-Pro --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-07-27 17:49:29.297  INFO MacBook-Pro --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-27 17:49:29.308  INFO MacBook-Pro --- [           main] l.Log4jDemoApplication                   : Started Log4jDemoApplication in 2.432 seconds (JVM running for 4.899)
+2020-07-27 17:49:29.309  INFO MacBook-Pro --- [           main] l.Log4jDemoApplication                   : Info log
+2020-07-27 17:49:29.310  WARN MacBook-Pro --- [           main] l.Log4jDemoApplication                   : Hey, This is a warning!
+2020-07-27 17:49:29.310 ERROR MacBook-Pro --- [           main] l.Log4jDemoApplication                   : Oops! We have an Error. OK
+2020-07-27 17:49:29.310 FATAL MacBook-Pro --- [           main] l.Log4jDemoApplication                   : Damn! Fatal error. Please fix me.
+2020-07-27 17:49:29.310  INFO MacBook-Pro --- [           main] l.Log4jDemoApplication                   : start logger
